@@ -21,6 +21,11 @@ Upload your resume, paste a job description, get a tailored version back. Hybrid
 └──────────────────┘                 └──────────────────────────┘
 ```
 
+
+### Demo Pictures
+<img width="1397" height="1186" alt="Screenshot 2026-05-21 at 8 26 05 PM" src="https://github.com/user-attachments/assets/9246a320-eff4-4783-957a-e5b874db12a8" />
+
+
 ### Backend modules
 
 - `services/resumeParser.ts` — extracts raw text (pdf-parse / mammoth), splits into header/summary/skills/experience/education sections using a header dictionary, parses contact info via regex, infers role/company/dates per experience block.
